@@ -41,8 +41,9 @@ end):enable()
 hs.window.animationDuration = 0 -- don't waste time on animation when resize window
 
 -- Key to launch application.
+
+-- h = {'/Applications/iTerm.app', 'English', 2},
 local key2App = {
-    h = {'/Applications/iTerm.app', 'English', 2},
     j = {'/Applications/Emacs.app', 'English', 2},
     k = {'/Applications/Google Chrome.app', 'English', 1},
     l = {'/System/Library/CoreServices/Finder.app', 'English', 1},
@@ -582,4 +583,4 @@ end)
 hs.notify.new({title="Manatee", informativeText="Andy, I am online!"}):send()
 
 -- Speak something after configuration success.
-speaker:speak("Paper, I am online!")
+-- speaker:speak("Paper, I am online!")
